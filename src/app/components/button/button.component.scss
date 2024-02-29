@@ -1,0 +1,15 @@
+.button{
+    padding: 10px;
+    border-radius: var(--small-radius);
+
+    background-color: var(--primary);
+    width: max-content;
+    margin: 0 auto;
+
+    transition: var(--transition-time) var(--transition-type);
+    cursor: pointer;
+    
+    &:hover{
+        background-color: var(--primary-hover);
+    }
+}

@@ -1,0 +1,37 @@
+.container{
+
+    width: 100%;
+
+    background-color: var(--dark-gray);
+    padding: .8rem;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5rem;
+
+    border-radius: var(--small-radius);
+
+    & > label{
+        color: var(--gray-text);
+    }
+
+    & > input{
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        color: var(--light-text);
+
+        &:focus{
+            outline: none;
+        }
+    
+        &::placeholder{
+            color: var(--gray-text);
+        }
+    }
+
+    &:focus-within{
+        outline: 2px solid var(--primary);
+    }               
+}

@@ -1,0 +1,27 @@
+.content{
+    width: max-content;
+    gap: 20px;
+    
+    padding: 20px 0;
+
+    .inputs{
+        width: 90%;
+        gap: 5px;
+    }
+
+    .cadastro{
+
+        & > p{
+            width: 70%;
+            margin: 0 auto;
+            color: var(--gray-text);
+
+            & > a{
+                font-weight: var(--emphasis-weight);
+                color: var(--light-text);
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+    }
+}

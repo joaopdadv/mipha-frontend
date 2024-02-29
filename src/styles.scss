@@ -9,9 +9,11 @@
 
 :root{
     //Colors
-    --main-accent: #3A5FA8;
+    --primary: #3A5FA8;
+    --primary-hover: #102e6b;
     --dark-gray: #272727;
     --light-gray: #494949;
+    --dark-color: #000;
     
     //Text Colors
     --dark-text: #000;
@@ -30,5 +32,27 @@
     //Weights
     --normal-weight: 400;
     --emphasis-weight: 600;
+
+    //Radius
+    --radius: 1rem;
+    --small-radius: .5rem;
+
+    //Transition
+    --transition-time: 100ms;
+    --transition-type: ease;
 }
 
+body{
+    background-color: var(--dark-color);
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+app-input{
+    width: 100%;
+}

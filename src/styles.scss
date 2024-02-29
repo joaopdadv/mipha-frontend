@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+}
+
+:root{
+    //Colors
+    --main-accent: #3A5FA8;
+    --dark-gray: #272727;
+    --light-gray: #494949;
+    
+    //Text Colors
+    --dark-text: #000;
+    --light-text: #fff;
+    --gray-text: #696969;
+
+    //Titles
+    --large-title: 2rem;
+    --small-title: 1.7rem;
+
+    //Texts
+    --large-text: 1.3rem;
+    --medium-text: 1rem;
+    --small-text: 0.8rem;
+
+    //Weights
+    --normal-weight: 400;
+    --emphasis-weight: 600;
+}
+
